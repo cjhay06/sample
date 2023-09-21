@@ -79,17 +79,7 @@
                   <center><span id="myalert2"></span></center>
                </div>
               
-               <div class="" id="myalert" style="display: none;">
-                     <div class="">
-                        <center><span id="alerttext"></span></center>
-                     </div>
-               </div>
-
-               <div class="" id="myalert3" style="display: none;">
-                     <div class="">
-                          <div class="alert alert-success" id="alerttext3"></div>
-                     </div>
-               </div>
+              
 
 
                <div class="form-group">
@@ -177,7 +167,7 @@
                                 $('#myalert2').hide();
                                 $('#alerttext2').hide();
                                 setTimeout(function() {
-                                    window.location = '/sample_tutorials/dashboard_admin/home.php';
+                                    window.location = './dashboard_admin/home.php';
                                 }, 1000);
                             }  else if (data == 2) {
 
@@ -191,7 +181,7 @@
                                 $('#myalert2').hide();
                                 $('#alerttext2').hide();
                                 setTimeout(function() {
-                                    window.location = '/sample_tutorials/dashboard_user/home.php';
+                                    window.location = './dashboard_user/home.php';
                                 }, 1000);
                             } else {
                                 $('#myalert').slideDown();
